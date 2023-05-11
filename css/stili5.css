@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin:0%;
+}
+img {
+    max-width:100%;
+    height: auto;
+}
+header a {
+    text-decoration: none;
+    color:white;
+    
+    
+}
+
+header a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    background-color: #393939;
+    
+    
+    
+    
+}
+header h1 {
+    font-weight: 100;
+}
+
+header p {
+    margin: 0;
+    
+    text-transform: uppercase;
+    
+}
+header input {
+    border-radius: 20px;
+    border-style: none;
+}
+
+header nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-style: italic;
+    
+    
+}
+div.herrerat {
+    margin: 0%;
+    padding-left: 30px;
+          
+}
+.herrera {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-evenly;
+   background-color: #FFBCB2;
+   padding-bottom: 10px;
+   align-items: center;
+    
+}
+div.herrerai img {
+    max-width:40%;
+}
+div.herrerai {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.herrera11 img {
+    max-width: 25%;
+    object-fit: contain;
+}
+div.herrera4 {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: auto;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    
+}
+
+div.herrera2 {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: auto;
+    padding-top: 40px;
+    
+}
+div.herrera3 {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: auto;
+    padding-top: 40px;   
+}
+div.herrera4 img{
+    max-width: 40%;
+}
+div.herrera1 img {
+    max-width: 50%;
+    padding: 30px;
+    
+}
+div.herrera1 {
+    width:auto;
+    height: auto;
+    text-align: center;
+}
+footer {
+    background-color: #393939;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: auto;
+    height: auto;
+    
+    
+
+      
+}
+footer ul {
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+
+}
+footer a {
+    color: white;
+    font-style: italic;
+    font-size:medium;
+    text-decoration: none;
+    
+}
+footer a:hover {
+    color: black;
+    text-decoration: underline;
+}

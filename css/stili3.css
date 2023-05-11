@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin:0%;
+}
+img {
+    max-width:100%;
+    height: auto;
+}
+header a {
+    text-decoration: none;
+    color:white;
+    
+    
+}
+
+header a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    background-color: #393939;
+    
+    
+    
+    
+}
+header h1 {
+    font-weight: 100;
+}
+
+header p {
+    margin: 0;
+    
+    text-transform: uppercase;
+    
+}
+header input {
+    border-radius: 20px;
+    border-style: none;
+}
+
+header nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-style: italic;
+}
+.lahan {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+   background-color: #FFE6BC; 
+   margin: auto;
+   align-items: center;
+}
+div.lahani img {
+    max-width: 35%;
+           
+}
+div.lahani {
+    width: auto;
+    height:auto;
+    text-align: center;
+}
+div.lahant {
+    margin: 0%;
+    padding-left: 30px;
+    
+}
+
+.lahan11 img {
+    max-width: 30%;
+    object-fit: contain;
+}
+div.lahan1 {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: auto;
+    padding-top: 40px;
+    
+}
+
+div.lahan2 {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: auto;
+    padding-top: 40px;
+    
+}
+div.lahan3 {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: auto;
+    padding-top: 40px;
+}
+
+div.lahan4 {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: auto;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+footer {
+    background-color: #393939;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: auto;
+    height: auto;
+    
+    
+
+      
+}
+footer ul {
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+
+}
+footer a {
+    color: white;
+    font-style: italic;
+    font-size:medium;
+    text-decoration: none;
+    
+}
+footer a:hover {
+    color: black;
+    text-decoration: underline;
+}
