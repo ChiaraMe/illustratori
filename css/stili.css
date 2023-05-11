@@ -60,33 +60,17 @@ header nav ul {
 main {
     margin: 0%;
 }
-main ul {
+main a {
+    color: black;
     text-decoration: none;
-    font-size: 20pt;
-    gap: 150px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    padding: 20px;
-    color: #5F380A;
-    list-style-type: none;
-    margin: 0%;
-    
-    
-    
+    font-size: 15pt;
 }
 main a:hover {
-    color:black;
+    color: black;
     text-decoration: underline;
+}
 
-}
-main a {
-    text-decoration: none;
-    color: #393939;
-    font-style: italic;
-    margin: auto;
-    
-}
+
 div.card11 {
     margin: auto;
     height: auto;
@@ -154,17 +138,26 @@ footer {
     height: auto;
     justify-content: space-evenly;
     margin: 0%;
+    display: flex;
+    text-align: center;
+    
+    
 
       
 }
 footer ul {
     color: white;
     font-size: large;
+    list-style-type: none;
 }
 footer a {
     color: white;
     font-style: italic;
     font-size:medium;
+    text-decoration: none;    
 }
+
+    
+
 
 
