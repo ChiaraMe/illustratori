@@ -27,7 +27,7 @@ header {
     padding: 20px;
     color: white;
     background-color: #393939;
-    margin: auto;
+    margin: 0%;
     
     
     
@@ -37,7 +37,7 @@ header h1 {
 }
 
 header p {
-    margin: 0;
+    margin: 0%;
     
     text-transform: uppercase;
     
@@ -57,6 +57,9 @@ header nav ul {
     
     
 }
+main {
+    margin: 0%;
+}
 main ul {
     text-decoration: none;
     font-size: 20pt;
@@ -67,7 +70,7 @@ main ul {
     padding: 20px;
     color: #5F380A;
     list-style-type: none;
-    margin: auto;
+    margin: 0%;
     
     
     
@@ -150,6 +153,7 @@ footer {
     width: auto;
     height: auto;
     justify-content: space-evenly;
+    margin: 0%;
 
       
 }
