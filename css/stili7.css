@@ -59,6 +59,7 @@ header nav ul {
 div.bocat {
     margin: 0%;
     padding-left: 30px;
+    max-width: 600px;
 }
 .boca {
     background-color:#FFC0BF;
@@ -125,4 +126,27 @@ footer a {
     font-style: italic;
     font-size:medium;
     text-decoration: none;    
+}
+@media (max-width: 700px){
+    .boca {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+}
+.boca h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+    
+    padding-top: 40px;
+}
+main h2  {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }

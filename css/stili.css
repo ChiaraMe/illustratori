@@ -9,10 +9,7 @@ img {
 }
 header a {
     text-decoration: none;
-    color:white;
-    
-    
-    
+    color:white;   
 }
 
 header a:hover {
@@ -32,9 +29,10 @@ header {
     
     
 }
-header h1 {
+header  h1 {
     font-weight: 100;
 }
+
 
 header p {
     margin: 0%;
@@ -156,7 +154,9 @@ footer a {
     font-size:medium;
     text-decoration: none;    
 }
-
+.chisiamo {
+    text-align: center;
+}
     
 
 

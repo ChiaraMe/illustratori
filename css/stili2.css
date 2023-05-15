@@ -58,20 +58,20 @@ header nav ul {
 div.camilot {
     margin: 0%;
     padding-left: 30px;
+    max-width: 600px;
     
           
 }
 .camilo {
-    display: flex;
+    
     padding-top: 10px;
     padding-bottom: 10px;
-    justify-content: space-between;
+    
    background-color: #CEDDFF;
-   align-items: center; 
+    
 }
-div.camiloi img {
-    max-width:50%;
-}
+
+
 .camilo11 img {
     max-width: 30%;
     object-fit: contain;
