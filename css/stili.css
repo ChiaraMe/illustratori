@@ -160,6 +160,7 @@ footer a {
 }
 .chisiamo {
     text-align: center;
+    padding-bottom: 500px;
 }
 @media (max-width: 700px){
     .header {
