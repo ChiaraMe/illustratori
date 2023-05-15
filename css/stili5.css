@@ -146,6 +146,7 @@ footer a {
         display: block;
         width: 100%;
         margin: 0;
+        
     }
 }
 .herrera h2 {
@@ -164,3 +165,10 @@ main h2  {
     margin-inline-end: 0px;
     font-weight: bold;
 }
+@media (max-width: 700px){
+    header {
+       flex-direction: column;
+       gap: 8px;
+       padding-bottom: 20px;
+   }
+   }
